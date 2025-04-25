@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Typing</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Barra superior -->
+    <header class="navbar">
+        <nav>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="nav-menu">
+                <li><a href="../indexEn.html#about">About Me</a></li>
+                <li><a href="../indexEn.html#social">@Social</a></li>
+                <li><a href="../indexEn.html#projects">Projects</a></li>
+                <li><a href="../indexEn.html#gallery">Tools</a></li>
+                <li><a href="../indexEn.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <br><br><br>
+            <img src="../img/BT/menu.png" alt="Imagen del proyecto BubbleTyping" class="centered">
+            <p>Bubble Typing is a typing game designed to help you take care of your hands while having fun. With simple mechanics and just a few minutes a day, you can significantly improve your health in front of the computer. It reduces the risk of tendonitis, carpal tunnel syndrome, neck and shoulder pain, and much more. Additionally, Bubble Typing was developed entirely during the Global Game Jam 2025, where the main theme was bubbles </p>
+            <h2>Images</h2>
+            <div class="image-grid">
+                <img src="../img/BT/tuto.png" alt="Imagen 2 de BubbleTyping">
+                <img src="../img/BT/game1.png" alt="Imagen 3 de BubbleTyping">
+                <img src="../img/BT/game2.png" alt="Imagen 4 de BubbleTyping">
+                <img src="../img/BT/gameFi.png" alt="Imagen 5 de BubbleTyping">
+                <img src="../img/BT/gg.png" alt="Imagen 5 de BubbleTyping">
+            </div>
+
+            <h2>Contribution</h2>
+            <p>In Bubble Typing, I was responsible for the functionality of the UI, scene management, animations (both UI and code-driven), the logic of the spawner, and navigation within the menus. All the graphic design was created from scratch by a teammate during the Global Game Jam, while the rest of the team handled the score system, progress saving, and the main mechanic of popping bubbles. </p>
+
+            <!-- Contenedor del modal de imagen -->
+            <div id="imageModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="modalImage">
+            </div>
+
+            <img src="../img/BT/team.jpeg" alt="Imagen ganadores futuristas" class="centered2">
+            <!-- <h2>Premios</h2>
+            <p>Rauzo obtuvo el segundo puesto en el concurso "Futurista 2023", organizado por Hola Metaverso. En este certamen, se evaluó la innovación y la integración de espacios físicos con la realidad aumentada, destacando el proyecto por su creatividad y enfoque en la apropiación del entorno universitario.</p>
+             -->
+            
+             <h2>Video</h2>
+             <div class="centered_yt">
+                 <iframe width="560" height="315" src="https://www.youtube.com/embed/6B_eeNm0kWM?si=WxVfxBEWjXnKBKEy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+             </div>
+            
+        </section>
+    </main>
+
+    <footer>
+        <h2>Get in touch with me</h2>
+        <p>And let's make magic together</p>
+        <div class="contact-form">
+            <div class="contact-buttons">
+                <img src="../img/copy.png" alt="Copiar correo" class="contact-icon" onclick="copyToClipboard()">
+                <a href="https://wa.me/573053040302?text=Hello!%20Thanks%20for%20reaching%20out.%20I'm%20a%20game%20developer%20focused%20on%20programming.%20How%20can%20I%20help%20you%3F" target="_blank">
+                    <img src="../img/copyWpp.png" alt="Enviar mensaje por WhatsApp" class="contact-icon">
+                </a>
+            </div>
+        </div>
+        
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

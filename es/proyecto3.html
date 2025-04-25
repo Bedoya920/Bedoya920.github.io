@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rauzo</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Barra superior -->
+    <header class="navbar">
+        <nav>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="nav-menu">
+                <li><a href="../index.html#about">Sobre mí</a></li>
+                <li><a href="../index.html#social">Redes Sociales</a></li>
+                <li><a href="../index.html#projects">Proyectos</a></li>
+                <li><a href="../index.html#gallery">Herramientas</a></li>
+                <li><a href="../index.html#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <br><br><br>
+            <img src="../img/LogoRauzo.png" alt="Imagen del proyecto Rauzo" class="centered">
+            <p>Rauzo es un proyecto desarrollado en conjunto con la Oficina de Sostenibilidad de la Universidad de Medellín, con el objetivo de representar la fauna, flora y paisajes de este entorno educativo a través de un videojuego runner en 2D. En el juego, controlamos a Raúl, un zorro perro, animal insignia y guardián de la universidad, quien se prepara para enfrentar una gran amenaza. Además, el proyecto involucra a la comunidad educativa mediante la búsqueda de códigos QR con modelos en realidad aumentada, los cuales desbloquean coleccionables que representan especies presentes en el campus.</p>
+            
+            <h2>Imágenes</h2>
+            <div class="image-grid">
+                <img src="../img/InicioRauzo.png" alt="Imagen 1 de Rauzo">
+                <img src="../img/Rauzo1.png" alt="Imagen 2 de Rauzo">
+                <img src="../img/Rauzo2.png" alt="Imagen 3 de Rauzo">
+                <img src="../img/Rauzo_Ruvy.png" alt="Imagen 4 de Rauzo">
+            </div>
+
+            <h2>Participación</h2>
+            <p>Mi participación en el desarrollo incluyó la programación del cambio de escenas, el movimiento del mapa, la funcionalidad de los menús y el sistema de realidad aumentada. El diseño gráfico del proyecto se creó completamente desde cero, gracias al trabajo de mi equipo, conformado por cuatro estudiantes del programa de Comunicación y Entretenimiento Digital de la Universidad de Medellín, quienes estuvieron a cargo del diseño de niveles, fondos, personajes, diálogos y demás elementos visuales.</p>
+            
+
+            <!-- Contenedor del modal de imagen -->
+            <div id="imageModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="modalImage">
+            </div>
+
+            <img src="../img/ganadores.jpeg" alt="Imagen ganadores futuristas" class="centered2">
+            <h2>Premios</h2>
+            <p>Rauzo obtuvo el segundo puesto en el concurso "Futurista 2023", organizado por Hola Metaverso. En este certamen, se evaluó la innovación y la integración de espacios físicos con la realidad aumentada, destacando el proyecto por su creatividad y enfoque en la apropiación del entorno universitario.</p>
+            
+            
+            <h2>Video</h2>
+            <div class="centered_yt">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/mq7qSB-dI5Q?si=aLvO30KflB0Ns2oW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            
+        </section>
+    </main>
+
+    <footer>
+        <h2>Ponte en contacto conmigo</h2>
+        <p>Y hagamos magia juntos.</p>
+        <div class="contact-form">
+            <div class="contact-buttons">
+                <img src="../img/copy.png" alt="Copiar correo" class="contact-icon" onclick="copyToClipboard()">
+                <a href="https://wa.me/573053040302?text=%C2%A1Hola!%20Gracias%20por%20contactarme.%20Soy%20desarrollador%20de%20videojuegos%20enfocado%20en%20programaci%C3%B3n.%20%C2%BFEn%20qu%C3%A9%20puedo%20ayudarte%3F" target="_blank">
+                    <img src="../img/copyWpp.png" alt="Enviar mensaje por WhatsApp" class="contact-icon">
+                </a>
+            </div>
+        </div>
+        
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
