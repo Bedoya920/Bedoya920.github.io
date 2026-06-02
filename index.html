@@ -1,202 +1,362 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio</title>
+    <title>Samuel Bedoya | Game Developer & Software Engineer</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <!-- Barra superior -->
+
     <header class="navbar">
-        <nav>
-            <div class="hamburger" id="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
+        <nav class="nav-container">
+            <div class="nav-logo">
+                <a href="#about">Samuel Bedoya</a>
             </div>
             <ul id="nav-menu">
-                
-                <li><a href="#about">Sobre mí</a></li>
-                <li><a href="#social">@Social</a></li>
-                <li><a href="#projects">Proyectos</a></li>
-                <li><a href="#gallery">Herramientas</a></li>
-                <li><a href="#contact">Contacto</a></li>
-                <li><a href="https://drive.google.com/uc?export=download&id=1-dvKNhwE1ZfvhpuYpui9fzLdCrC3BP4p">Descargar CV</a></li>
-                <li><a href="indexEn.html">English Page</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="[https://drive.google.com/uc?export=download&id=1-dvKNhwE1ZfvhpuYpui9fzLdCrC3BP4p](https://drive.google.com/uc?export=download&id=1-dvKNhwE1ZfvhpuYpui9fzLdCrC3BP4p)" class="btn-cv-download" download>
+                        Download CV
+                    </a>
+                </li>
             </ul>
-            
         </nav>
     </header>
 
-    <!-- Bloque 1: Sobre mí -->
-    <section id="about">
-        <div class="text">
-            <h1>¡Hola mundo! Soy Samuel Bedoya Gómez</h1>
-            <p>Soy desarrollador de videojuegos especializado en programación en C#, con experiencia en herramientas como Unity y Roblox Studio. Además, tengo conocimientos en modelado 3D y una pasión por convertir ideas en experiencias interactivas y cautivadoras. Si buscas a alguien que combine creatividad, precisión técnica y un enfoque centrado en el detalle, estoy listo para llevar tu proyecto al siguiente nivel.</p>
-            <img src="img/foto_mia.png  " alt="Foto">
-            <p>También cuento con experiencia enseñando programación a niños, lo que refuerza mi capacidad para explicar y resolver problemas de manera clara y efectiva.</p>
-        </div>
-        
-    </section>
-
-    <!-- Bloque 2: Redes Sociales -->
-    <section id="social">
-        <h2>@Social</h2>
-        <div class="social-buttons">
-            <a href="https://www.linkedin.com/in/samuel-bedoya-1417aa323/" class="btn linkedin"><img src="img/Linkedin.png" alt="LinkedIn"></a>
-            <a href="mailto:samy040902@gmail.com" class="btn gmail"><img src="img/Gmail.png" alt="Gmail"></a>
-            <a href="https://github.com/Bedoya920" class="btn github"><img src="img/GitHub.png" alt="GitHub"></a>
-            <!-- <a href="https://discord.com" class="btn discord"><img src="img/Discord.png" alt="Discord"></a> -->
-            <a href="https://wa.me/573053040302?text=%C2%A1Hola!%20Gracias%20por%20contactarme.%20Soy%20desarrollador%20de%20videojuegos%20enfocado%20en%20programaci%C3%B3n.%20%C2%BFEn%20qu%C3%A9%20puedo%20ayudarte%3F" class="btn discord"><img src="img/WhatsApp.png" alt="WhatsApp"></a>
-            <a href="https://www.instagram.com/bedobot_?igsh=Z2xyZW9xeGNnY3U3" class="btn discord"><img src="img/Ig.png" alt="Instagram"></a>
-        </div>
-    </section>
-
-    <!-- Bloque 3: Proyectos -->
-    <section id="projects">
-        <h2>Mis proyectos</h2>
-        <div class="project-grid">
-            <a href="es/proyecto1.html" class="project">
-                <img src="img/BT/menu.png" alt="Angel o demonio">
-                <h3>Bubble Typing</h3>
-                <p>Bubble Typing es un juego de mecanografía desarrollado en la Global Game Jam 2025, diseñado para ayudarte a cuidar tus manos mientras te diviertes. Con mecánicas simples y solo unos minutos al día, puedes mejorar tu salud frente al computador de forma significativa.</p>
-            </a>
-            <a href="es/proyecto2.html" class="project">
-                <img src="img/ARDLL/juego.jpg" alt="Piratas del sigilo">
-                <h3>Al ritmo de las leyendas</h3>
-                <p>Al ritmo de las leyendas es un juego musical en 2D para móviles, donde te pondrás en los zapatos de César, un niño de Amagá, Antioquia. Su misión: enfrentarse a las leyendas del Suroeste Antioqueño usando el poder de la música típica de la región..</p>
-            </a>
-            <a href="es/proyecto3.html" class="project">
-                <img src="img/Rauzo_Ruvy.png" alt="Rauzo">
-                <h3>Rauzo</h3>
-                <p>Rauzo es un proyecto desarrollado junto a la oficina de sostenibilidad de la Universidad de Medellín, que busca representar la fauna, flora y paisajes de este entorno educativo a través de un videojuego runner 2D. </p>
-            </a>
-            <a href="es/proyecto4.html" class="project">
-                <img src="img/HB/PortraitHB.jpg" alt="Haunted Blind">
-                <h3>Haunted Blind</h3>
-                <p>Haunted Blind es un juego diseñado para personas con discapacidad visual, donde el objetivo es escapar de un lugar abandonado. El proyecto busca ofrecer una experiencia de terror inmersiva mientras el jugador explora distintos mapas, los cuales podrán ser creados por la comunidad en el futuro.</p>
-            </a>
-        </div>
-    </section>
-
-    <!-- Bloque 4: Galería de imágenes -->
-    <section id="gallery">
-        <h2>Herramientas principales</h2>
-        <div class="image-tools">
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src="img/CSharp.png" alt="CSharp">
-                    </div>
-                    <div class="flip-card-back">
-                        <img src="img/CSharp_bar.png" alt="CSharp Info">
+    <main>
+        <section id="about" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-text">
+                    <h1>Hello World! I'm Samuel Bedoya Gómez</h1>
+                    <p class="hero-subtitle">Game Developer & Software Engineer</p>
+                    <p class="hero-description">
+                        I am a gameplay and software developer specialized in C# and C++, with extensive experience engineering systems in engines like Unity, Unreal Engine, and Roblox Studio. I combine strict technical precision with a deep focus on performance optimization and modular architecture to transform complex ideas into highly fluid interactive experiences.
+                    </p>
+                    <p class="hero-description">
+                        Additionally, my background teaching programming to children has sharpened my communication skills, enabling me to break down complex technical bottlenecks and collaborate effectively across multidisciplinary teams.
+                    </p>
+                    <div class="hero-ctas">
+                        <a href="#projects" class="cta-primary">View Work</a>
+                        <a href="#contact" class="cta-secondary">Get In Touch</a>
                     </div>
                 </div>
-            </div>
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src="img/Unity.png" alt="Unity">
-                    </div>
-                    <div class="flip-card-back">
-                        <img src="img/Unity_bar.png" alt="Unity Info">
-                    </div>
+                <div class="hero-image">
+                    <img src="img/foto_mia.png" alt="Samuel Bedoya Profile Photo">
                 </div>
             </div>
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src="img/Blender.png" alt="Unity">
+        </section>
+
+        <section id="projects" class="projects-section">
+            <h2>Featured Projects</h2>
+            <div class="carousel-container">
+                <div class="carousel-track">
+                    <article class="project-card card-active">
+                        <div class="project-img-wrapper">
+                            <img src="img/BT/menu.png" alt="Bubble Typing Gameplay">
+                        </div>
+                        <div class="project-info">
+                            <h3>Bubble Typing</h3>
+                            <span class="project-engine">Unity / C#</span>
+                            <p>An ergonomics-focused typing game developed for Global Game Jam 2025. Designed to help users prevent repetitive strain injuries through interactive micro-sessions, implementing lightweight UI tracking and clean logical game loops.</p>
+                            <a href="es/proyecto1.html" class="project-link">View Details →</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-img-wrapper">
+                            <img src="img/ARDLL/juego.jpg" alt="Al ritmo de las leyendas Gameplay">
+                        </div>
+                        <div class="project-info">
+                            <h3>Rhythm of the Legends</h3>
+                            <span class="project-engine">Unity / C#</span>
+                            <p>A 2D rhythm mobile game inspired by regional colombian folklore. Features precise audio-latency calibration, synchronization matrices, and optimized mobile rendering grids for responsive gameplay inputs.</p>
+                            <a href="es/proyecto2.html" class="project-link">View Details →</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-img-wrapper">
+                            <img src="img/Rauzo_Ruvy.png" alt="Rauzo Gameplay">
+                        </div>
+                        <div class="project-info">
+                            <h3>Rauzo</h3>
+                            <span class="project-engine">Unity / C#</span>
+                            <p>An educational 2D endless runner developed in collaboration with the Sustainability Office at Universidad de Medellín. Built with dynamic asset streaming and object pooling architectures to ensure sustained performance on lower-tier school hardware.</p>
+                            <a href="es/proyecto3.html" class="project-link">View Details →</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-img-wrapper">
+                            <img src="img/HB/PortraitHB.jpg" alt="Haunted Blind Gameplay">
+                        </div>
+                        <div class="project-info">
+                            <h3>Haunted Blind</h3>
+                            <span class="project-engine">Unity / C#</span>
+                            <p>An immersive horror audio-game designed strictly for visually impaired accessibility. Features highly decoupled 3D spatial audio engineering, non-visual navigation arrays, and custom framework modules ready for future user-generated map expansions.</p>
+                            <a href="es/proyecto4.html" class="project-link">View Details →</a>
+                        </div>
+                    </article>
+                </div> 
+                <div class="carousel-controls">
+                    <button class="ctrl-btn" id="prevBtn">&#10094;</button>
+                    <button class="ctrl-btn" id="nextBtn">&#10095;</button>
+                </div>
+            </div> 
+        </section>
+
+        <section id="experience" class="experience-section">
+            <h2>Work Experience</h2>
+            <div class="experience-list">
+                <div class="experience-item">
+                    <div class="exp-header">
+                        <div class="exp-title-group">
+                            <h3>Software & Gameplay Developer</h3>
+                            <span class="exp-company">Institutional Projects / Freelance</span>
+                        </div>
+                        <span class="exp-date">2025 - Present</span>
                     </div>
-                    <div class="flip-card-back">
-                        <img src="img/Blender_bar.png" alt="Unity Info">
+                    <ul class="exp-bullets">
+                        <li>Engineered logical systems for interactive medical training simulators and educational game modules using strict Object-Oriented Programming (OOP).</li>
+                        <li>Refactored legacy project frameworks by implementing clean Object Pooling, reducing garbage collection spikes and improving memory consumption boundaries.</li>
+                        <li>Integrated multiplatform audio engineering plugins and spatialization arrays for specialized accessibility simulators.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="exp-header">
+                        <div class="exp-title-group">
+                            <h3>Programming Instructor</h3>
+                            <span class="exp-company">Tech Education Hubs</span>
+                        </div>
+                        <span class="exp-date">2021 - Present</span>
                     </div>
+                    <ul class="exp-bullets">
+                        <li>Designed and delivered custom algorithms and programming curriculums focusing on core data structures and physics for kids using Roblox Studio (Lua) and Unity (C#).</li>
+                        <li>Mentored and guided the architectural design of over 50 student-led interactive game environments, driving optimization workflows directly inside native engine editors.</li>
+                    </ul>
                 </div>
             </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <h2>Core Technical Skills</h2>
             
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src="img/Roblox.png" alt="Unity">
-                    </div>
-                    <div class="flip-card-back">
-                        <img src="img/Roblox_bar.png" alt="Unity Info">
-                    </div>
-                </div>
-            </div>
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src="img/GitKraken.png" alt="GitKraken">
-                    </div>
-                    <div class="flip-card-back">
-                        <img src="img/GitKraken_bar.png" alt="GitKrakenBarra">
-                    </div>
-                </div>
-            </div>
+            <p class="skills-intro">Hover on PC or click on Mobile to view production engineering capabilities.</p>
             
-        </div>
-        <h2>Otras herramientas</h2>
-        <div class="image-tools">
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src="img/HTML.png" alt="Unity">
-                    </div>
-                    <div class="flip-card-back">
-                        <img src="img/HTML_bar.png" alt="Unity Info">
-                    </div>
-                </div>
-            </div>
-            <!-- <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src="img/CSS.png" alt="Unity">
-                    </div>
-                    <div class="flip-card-back">
-                        <img src="img/CSS_bar.png" alt="Unity Info">
+            <div class="skills-grid">
+                <div class="skill-card" onclick="toggleMobileAccordion(this)">
+                    <div class="skill-card-inner">
+                        <div class="skill-card-front">
+                            <img src="img/Unity.png" alt="Unity Engine Logo">
+                            <h3>Unity & C#</h3>
+                        </div>
+                        <div class="skill-card-back">
+                            <h4>Engineering Focus:</h4>
+                            <ul>
+                                <li>Decoupled state machines & ScriptableObject frameworks.</li>
+                                <li>Memory profiles & Garbage Collector profiling.</li>
+                                <li>Custom inspector systems & tooling pipelines.</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div> -->
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src="img/Premier.png" alt="AdobePremier">
-                    </div>
-                    <div class="flip-card-back">
-                        <img src="img/Premier_bar.png" alt="AdobePremierBarra">
-                    </div>
-                </div>
-            </div>
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src="img/Photoshop.png" alt="AdobePhotoshop">
-                    </div>
-                    <div class="flip-card-back">
-                        <img src="img/Photoshop_bar.png" alt="AdobePhotoshopBarra">
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-    </section>
 
-    <!-- Bloque 5: Contacto -->
-    <section id="contact">
-        <h2>Ponte en contacto conmigo</h2>
-        <p>Y hagamos magia juntos.</p>
-        <div class="contact-form">
-            <div class="contact-buttons">
-                <img src="img/copy.png" alt="Copiar correo" class="contact-icon" onclick="copyToClipboard()">
-                <a href="https://wa.me/573053040302?text=%C2%A1Hola!%20Gracias%20por%20contactarme.%20Soy%20desarrollador%20de%20videojuegos%20enfocado%20en%20programaci%C3%B3n.%20%C2%BFEn%20qu%C3%A9%20puedo%20ayudarte%3F" target="_blank">
-                    <img src="img/copyWpp.png" alt="Enviar mensaje por WhatsApp" class="contact-icon">
+                <div class="skill-card" onclick="toggleMobileAccordion(this)">
+                    <div class="skill-card-inner">
+                        <div class="skill-card-front">
+                            <img src="img/CSharp.png" alt="C++ / Unreal Core Logo">
+                            <h3>Unreal Engine & C++</h3>
+                        </div>
+                        <div class="skill-card-back">
+                            <h4>Engineering Focus:</h4>
+                            <ul>
+                                <li>Profiling bottleneck diagnostics via Unreal Insights.</li>
+                                <li>Memory management, smart pointers, & object lifecycle.</li>
+                                <li>Actor tick group configurations & efficient data flow.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card" onclick="toggleMobileAccordion(this)">
+                    <div class="skill-card-inner">
+                        <div class="skill-card-front">
+                            <img src="img/Roblox.png" alt="Roblox Studio Logo">
+                            <h3>Roblox Studio & Luau</h3>
+                        </div>
+                        <div class="skill-card-back">
+                            <h4>Engineering Focus:</h4>
+                            <ul>
+                                <li>Robust Client-Server network replication models.</li>
+                                <li>Concurrent task scheduling & parallel processing threads.</li>
+                                <li>Secure remote event arrays and data caching systems.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card" onclick="toggleMobileAccordion(this)">
+                    <div class="skill-card-inner">
+                        <div class="skill-card-front">
+                            <img src="img/Blender.png" alt="Blender Logo">
+                            <h3>Blender & 3D Assets</h3>
+                        </div>
+                        <div class="skill-card-back">
+                            <h4>Engineering Focus:</h4>
+                            <ul>
+                                <li>Low-poly topological budgeting optimized for runtime rendering.</li>
+                                <li>Modular environment mesh kits & structural assets.</li>
+                                <li>UV mapping grids and custom PBR material pipelines.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card" onclick="toggleMobileAccordion(this)">
+                    <div class="skill-card-inner">
+                        <div class="skill-card-front">
+                            <img src="img/GitKraken.png" alt="Git Control Logo">
+                            <h3>Git & Workflows</h3>
+                        </div>
+                        <div class="skill-card-back">
+                            <h4>Engineering Focus:</h4>
+                            <ul>
+                                <li>Branch protection setups, rebasing, and merge strategies.</li>
+                                <li>LFS (Large File Storage) infrastructure management.</li>
+                                <li>Clean commits and unified team version staging.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="soft-skills" class="soft-skills-section">
+            <h2>Core Competencies</h2>
+            <div class="soft-skills-list">
+                <div class="soft-skill-item">
+                    <strong>Technical Communication:</strong> Proven ability to synthesize intricate engine architectures, low-level constraints, and logic flows into accessible, clear terms for multi-discipline colleagues and juniors.
+                </div>
+                <div class="soft-skill-item">
+                    <strong>Root-Cause Problem Solving:</strong> Highly methodical execution when dissecting codebase regressions, algorithmic bottlenecks, and hardware resource leaks.
+                </div>
+                <div class="soft-skill-item">
+                    <strong>Technical Adaptability:</strong> Native agility transitioning across varying deployment paradigms, memory rules, and syntax requirements (C++, C#, Lua).
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Let's Build Something Great Together</h2>
+            <p>I am currently open to international engineering roles, studio contracts, and technical collaborations.</p>
+            
+            <div class="contact-grid">
+                <a href="mailto:samy040902@gmail.com" class="contact-card-btn email-btn">
+                    <span class="contact-btn-icon">✉</span>
+                    <div class="contact-btn-text">
+                        <span>Email Me Directly</span>
+                        <strong>samy040902@gmail.com</strong>
+                    </div>
                 </a>
-            </div>
-        </div>
-    </section>    
 
-    <script src="js/script.js"></script>
+                <div class="contact-card-btn discord-btn" onclick="copyDiscordHandle()">
+                    <span class="contact-btn-icon">💬</span>
+                    <div class="contact-btn-text">
+                        <span>Connect on Discord</span>
+                        <strong id="discord-handle">Bedoya920</strong>
+                    </div>
+                    <span id="copy-toast" class="copy-toast">Click to copy</span>
+                </div>
+            </div>
+        </section>    
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 | Engineered from scratch by Samuel Bedoya Gómez</p>
+        <div class="footer-socials">
+            <a href="[https://github.com/Bedoya920](https://github.com/Bedoya920)" target="_blank">GitHub</a>
+            <a href="[https://www.linkedin.com/in/samuel-bedoya-1417aa323/](https://www.linkedin.com/in/samuel-bedoya-1417aa323/)" target="_blank">LinkedIn</a>
+            <a href="[https://www.instagram.com/bedobot_?igsh=Z2xyZW9xeGNnY3U3](https://www.instagram.com/bedobot_?igsh=Z2xyZW9xeGNnY3U3)" target="_blank">Instagram</a>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMobileAccordion(cardElement) {
+            if (window.innerWidth <= 768) {
+                cardElement.classList.toggle('mobile-expanded');
+            }
+        }
+
+        function copyDiscordHandle() {
+            const handle = document.getElementById('discord-handle').innerText;
+            navigator.clipboard.writeText(handle);
+            const toast = document.getElementById('copy-toast');
+            toast.innerText = "Copied!";
+            setTimeout(() => { toast.innerText = "Click to copy"; }, 2000);
+        }
+
+        // INTERACTIVIDAD REAL DEL CARRUSEL DE PROYECTOS
+        const track = document.querySelector('.carousel-track');
+        const cards = document.querySelectorAll('.project-card');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+
+        let currentIndex = 0;
+
+        // Calcula cuántas tarjetas caben visibles en el contenedor actualmente
+        function getVisibleCardsCount() {
+            const containerWidth = document.querySelector('.carousel-container').getBoundingClientRect().width;
+            const cardWidth = cards[0].getBoundingClientRect().width;
+            const gap = 30; // Definido como 30px en tu CSS
+            return Math.max(1, Math.floor((containerWidth + gap) / (cardWidth + gap)));
+        }
+
+        function updateCarouselPosition() {
+            if (cards.length === 0) return;
+            const cardWidth = cards[0].getBoundingClientRect().width;
+            const gap = 30;
+            const amountToMove = currentIndex * (cardWidth + gap);
+            track.style.transform = `translateX(-${amountToMove}px)`;
+        }
+
+        nextBtn.addEventListener('click', () => {
+            const visibleCards = getVisibleCardsCount();
+            const maxIndex = cards.length - visibleCards;
+
+            if (currentIndex < maxIndex) {
+                currentIndex++;
+            } else {
+                currentIndex = 0; // Regresa al principio de forma cíclica
+            }
+            updateCarouselPosition();
+        });
+
+        prevBtn.addEventListener('click', () => {
+            const visibleCards = getVisibleCardsCount();
+            const maxIndex = cards.length - visibleCards;
+
+            if (currentIndex > 0) {
+                currentIndex--;
+            } else {
+                currentIndex = maxIndex > 0 ? maxIndex : 0; // Va al final si está al principio
+            }
+            updateCarouselPosition();
+        });
+
+        // Reajusta la traslación si el usuario cambia el tamaño de la ventana (Resize safe)
+        window.addEventListener('resize', () => {
+            const visibleCards = getVisibleCardsCount();
+            const maxIndex = cards.length - visibleCards;
+            if (currentIndex > maxIndex) {
+                currentIndex = maxIndex > 0 ? maxIndex : 0;
+            }
+            updateCarouselPosition();
+        });
+    </script>
 </body>
 </html>
